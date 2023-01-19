@@ -68,7 +68,7 @@ form button:hover {
     margin: 0;
     align-self: center;
 }
-.complete.validate-false {
+.complete {
     background-color: white;
     height: 30px;
     width: 30px;
@@ -76,7 +76,7 @@ form button:hover {
     border-radius: 5px;
     box-shadow: 0 0 1px;
 }
-.complete.validate-true {
+.complete.validate {
     background-image: url("https://www.svgrepo.com/show/336702/done-all.svg");
     background-repeat: no-repeat;
     background-position: center;
@@ -87,10 +87,12 @@ form button:hover {
     border: 0;
     border-radius: 5px;
     box-shadow: 0 0 1px;
+}
+.complete.validate.active {
     animation-name: completeAnim;
     animation-duration: 1s;
 }
-p.validate-true {
+p.validate {
     text-decoration: line-through;
 }
 .editTodo {
