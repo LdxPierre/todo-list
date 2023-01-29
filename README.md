@@ -8,4 +8,4 @@ Fonctionnalitées :
 - Clique simple sur un tâche pour la terminer.
 - Double clique pour éditer un tâche.
 - La touche "ENTER" sauvegarde une saisie.
-- La touche "ESCAPE" annule la saise s'une modification.
+- La touche "ESCAPE" annule la saise d'une modification.
